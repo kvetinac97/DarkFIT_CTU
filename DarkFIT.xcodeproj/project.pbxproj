@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D6E3FD23601C840061D6AE /* DarkFIT.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 26D6E3FC23601C840061D6AE /* DarkFIT.entitlements */; };
+		26D6E3FF23601C840061D6AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6E3FE23601C840061D6AE /* AppDelegate.swift */; };
+		26D6E40223601C840061D6AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D6E40023601C840061D6AE /* Main.storyboard */; };
+		26D6E40423601C840061D6AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6E40323601C840061D6AE /* ViewController.swift */; };
+		26D6E40623601C860061D6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D6E40523601C860061D6AE /* Assets.xcassets */; };
+		26D6E41123601C860061D6AE /* DarkFITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6E41023601C860061D6AE /* DarkFITTests.swift */; };
+		26D6E41C23601C860061D6AE /* DarkFITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6E41B23601C860061D6AE /* DarkFITUITests.swift */; };
+		26D6E42323601C860061D6AE /* DarkFIT Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26D6E42223601C860061D6AE /* DarkFIT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		26D6E42823601C860061D6AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D6E42723601C860061D6AE /* Cocoa.framework */; };
+		26D6E42B23601C860061D6AE /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6E42A23601C860061D6AE /* SafariExtensionHandler.swift */; };
+		26D6E42D23601C860061D6AE /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6E42C23601C860061D6AE /* SafariExtensionViewController.swift */; };
+		26D6E43023601C860061D6AE /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D6E42E23601C860061D6AE /* SafariExtensionViewController.xib */; };
+		26D6E43323601C860061D6AE /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 26D6E43223601C860061D6AE /* script.js */; };
+		26D6E43523601C860061D6AE /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 26D6E43423601C860061D6AE /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D6E40D23601C860061D6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D6E3F123601C840061D6AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D6E3F823601C840061D6AE;
+			remoteInfo = DarkFIT;
+		};
+		26D6E41823601C860061D6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D6E3F123601C840061D6AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D6E3F823601C840061D6AE;
+			remoteInfo = DarkFIT;
+		};
+		26D6E42423601C860061D6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D6E3F123601C840061D6AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D6E42123601C860061D6AE;
+			remoteInfo = "DarkFIT Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		26D6E43C23601C860061D6AE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				26D6E42323601C860061D6AE /* DarkFIT Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		26D6E3F923601C840061D6AE /* DarkFIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkFIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D6E3FC23601C840061D6AE /* DarkFIT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkFIT.entitlements; sourceTree = "<group>"; };
+		26D6E3FE23601C840061D6AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26D6E40123601C840061D6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D6E40323601C840061D6AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26D6E40523601C860061D6AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D6E40723601C860061D6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D6E40C23601C860061D6AE /* DarkFITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkFITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D6E41023601C860061D6AE /* DarkFITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkFITTests.swift; sourceTree = "<group>"; };
+		26D6E41223601C860061D6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D6E41723601C860061D6AE /* DarkFITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkFITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D6E41B23601C860061D6AE /* DarkFITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkFITUITests.swift; sourceTree = "<group>"; };
+		26D6E41D23601C860061D6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D6E42223601C860061D6AE /* DarkFIT Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DarkFIT Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D6E42723601C860061D6AE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		26D6E42A23601C860061D6AE /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		26D6E42C23601C860061D6AE /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		26D6E42F23601C860061D6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		26D6E43123601C860061D6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D6E43223601C860061D6AE /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		26D6E43423601C860061D6AE /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		26D6E43623601C860061D6AE /* DarkFIT_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkFIT_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D6E3F623601C840061D6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E40923601C860061D6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E41423601C860061D6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E41F23601C860061D6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D6E42823601C860061D6AE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D6E3F023601C840061D6AE = {
+			isa = PBXGroup;
+			children = (
+				26D6E3FB23601C840061D6AE /* DarkFIT */,
+				26D6E40F23601C860061D6AE /* DarkFITTests */,
+				26D6E41A23601C860061D6AE /* DarkFITUITests */,
+				26D6E42923601C860061D6AE /* DarkFIT Extension */,
+				26D6E42623601C860061D6AE /* Frameworks */,
+				26D6E3FA23601C840061D6AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D6E3FA23601C840061D6AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D6E3F923601C840061D6AE /* DarkFIT.app */,
+				26D6E40C23601C860061D6AE /* DarkFITTests.xctest */,
+				26D6E41723601C860061D6AE /* DarkFITUITests.xctest */,
+				26D6E42223601C860061D6AE /* DarkFIT Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D6E3FB23601C840061D6AE /* DarkFIT */ = {
+			isa = PBXGroup;
+			children = (
+				26D6E3FC23601C840061D6AE /* DarkFIT.entitlements */,
+				26D6E3FE23601C840061D6AE /* AppDelegate.swift */,
+				26D6E40023601C840061D6AE /* Main.storyboard */,
+				26D6E40323601C840061D6AE /* ViewController.swift */,
+				26D6E40523601C860061D6AE /* Assets.xcassets */,
+				26D6E40723601C860061D6AE /* Info.plist */,
+			);
+			path = DarkFIT;
+			sourceTree = "<group>";
+		};
+		26D6E40F23601C860061D6AE /* DarkFITTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D6E41023601C860061D6AE /* DarkFITTests.swift */,
+				26D6E41223601C860061D6AE /* Info.plist */,
+			);
+			path = DarkFITTests;
+			sourceTree = "<group>";
+		};
+		26D6E41A23601C860061D6AE /* DarkFITUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26D6E41B23601C860061D6AE /* DarkFITUITests.swift */,
+				26D6E41D23601C860061D6AE /* Info.plist */,
+			);
+			path = DarkFITUITests;
+			sourceTree = "<group>";
+		};
+		26D6E42623601C860061D6AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D6E42723601C860061D6AE /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26D6E42923601C860061D6AE /* DarkFIT Extension */ = {
+			isa = PBXGroup;
+			children = (
+				26D6E42A23601C860061D6AE /* SafariExtensionHandler.swift */,
+				26D6E42C23601C860061D6AE /* SafariExtensionViewController.swift */,
+				26D6E42E23601C860061D6AE /* SafariExtensionViewController.xib */,
+				26D6E43123601C860061D6AE /* Info.plist */,
+				26D6E43223601C860061D6AE /* script.js */,
+				26D6E43423601C860061D6AE /* ToolbarItemIcon.pdf */,
+				26D6E43623601C860061D6AE /* DarkFIT_Extension.entitlements */,
+			);
+			path = "DarkFIT Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D6E3F823601C840061D6AE /* DarkFIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D6E43D23601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFIT" */;
+			buildPhases = (
+				26D6E3F523601C840061D6AE /* Sources */,
+				26D6E3F623601C840061D6AE /* Frameworks */,
+				26D6E3F723601C840061D6AE /* Resources */,
+				26D6E43C23601C860061D6AE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D6E42523601C860061D6AE /* PBXTargetDependency */,
+			);
+			name = DarkFIT;
+			productName = DarkFIT;
+			productReference = 26D6E3F923601C840061D6AE /* DarkFIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26D6E40B23601C860061D6AE /* DarkFITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D6E44023601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFITTests" */;
+			buildPhases = (
+				26D6E40823601C860061D6AE /* Sources */,
+				26D6E40923601C860061D6AE /* Frameworks */,
+				26D6E40A23601C860061D6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D6E40E23601C860061D6AE /* PBXTargetDependency */,
+			);
+			name = DarkFITTests;
+			productName = DarkFITTests;
+			productReference = 26D6E40C23601C860061D6AE /* DarkFITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26D6E41623601C860061D6AE /* DarkFITUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D6E44323601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFITUITests" */;
+			buildPhases = (
+				26D6E41323601C860061D6AE /* Sources */,
+				26D6E41423601C860061D6AE /* Frameworks */,
+				26D6E41523601C860061D6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D6E41923601C860061D6AE /* PBXTargetDependency */,
+			);
+			name = DarkFITUITests;
+			productName = DarkFITUITests;
+			productReference = 26D6E41723601C860061D6AE /* DarkFITUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		26D6E42123601C860061D6AE /* DarkFIT Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D6E43923601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFIT Extension" */;
+			buildPhases = (
+				26D6E41E23601C860061D6AE /* Sources */,
+				26D6E41F23601C860061D6AE /* Frameworks */,
+				26D6E42023601C860061D6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DarkFIT Extension";
+			productName = "DarkFIT Extension";
+			productReference = 26D6E42223601C860061D6AE /* DarkFIT Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D6E3F123601C840061D6AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ondrej Wrzecionko";
+				TargetAttributes = {
+					26D6E3F823601C840061D6AE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					26D6E40B23601C860061D6AE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 26D6E3F823601C840061D6AE;
+					};
+					26D6E41623601C860061D6AE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 26D6E3F823601C840061D6AE;
+					};
+					26D6E42123601C860061D6AE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 26D6E3F423601C840061D6AE /* Build configuration list for PBXProject "DarkFIT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D6E3F023601C840061D6AE;
+			productRefGroup = 26D6E3FA23601C840061D6AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D6E3F823601C840061D6AE /* DarkFIT */,
+				26D6E40B23601C860061D6AE /* DarkFITTests */,
+				26D6E41623601C860061D6AE /* DarkFITUITests */,
+				26D6E42123601C860061D6AE /* DarkFIT Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D6E3F723601C840061D6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D6E3FD23601C840061D6AE /* DarkFIT.entitlements in Resources */,
+				26D6E40623601C860061D6AE /* Assets.xcassets in Resources */,
+				26D6E40223601C840061D6AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E40A23601C860061D6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E41523601C860061D6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E42023601C860061D6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D6E43523601C860061D6AE /* ToolbarItemIcon.pdf in Resources */,
+				26D6E43023601C860061D6AE /* SafariExtensionViewController.xib in Resources */,
+				26D6E43323601C860061D6AE /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D6E3F523601C840061D6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D6E40423601C840061D6AE /* ViewController.swift in Sources */,
+				26D6E3FF23601C840061D6AE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E40823601C860061D6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D6E41123601C860061D6AE /* DarkFITTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E41323601C860061D6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D6E41C23601C860061D6AE /* DarkFITUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D6E41E23601C860061D6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D6E42D23601C860061D6AE /* SafariExtensionViewController.swift in Sources */,
+				26D6E42B23601C860061D6AE /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D6E40E23601C860061D6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D6E3F823601C840061D6AE /* DarkFIT */;
+			targetProxy = 26D6E40D23601C860061D6AE /* PBXContainerItemProxy */;
+		};
+		26D6E41923601C860061D6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D6E3F823601C840061D6AE /* DarkFIT */;
+			targetProxy = 26D6E41823601C860061D6AE /* PBXContainerItemProxy */;
+		};
+		26D6E42523601C860061D6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D6E42123601C860061D6AE /* DarkFIT Extension */;
+			targetProxy = 26D6E42423601C860061D6AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26D6E40023601C840061D6AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D6E40123601C840061D6AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D6E42E23601C860061D6AE /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D6E42F23601C860061D6AE /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D6E43723601C860061D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26D6E43823601C860061D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		26D6E43A23601C860061D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DarkFIT Extension/DarkFIT_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "DarkFIT Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.kvetinac97.DarkFIT-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		26D6E43B23601C860061D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DarkFIT Extension/DarkFIT_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "DarkFIT Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.kvetinac97.DarkFIT-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		26D6E43E23601C860061D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkFIT/DarkFIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DarkFIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.kvetinac97.DarkFIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		26D6E43F23601C860061D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DarkFIT/DarkFIT.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DarkFIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.kvetinac97.DarkFIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		26D6E44123601C860061D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				INFOPLIST_FILE = DarkFITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.kvetinac97.DarkFITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkFIT.app/Contents/MacOS/DarkFIT";
+			};
+			name = Debug;
+		};
+		26D6E44223601C860061D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				INFOPLIST_FILE = DarkFITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.kvetinac97.DarkFITTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkFIT.app/Contents/MacOS/DarkFIT";
+			};
+			name = Release;
+		};
+		26D6E44423601C860061D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				INFOPLIST_FILE = DarkFITUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.kvetinac97.DarkFITUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DarkFIT;
+			};
+			name = Debug;
+		};
+		26D6E44523601C860061D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 57DDV3UUG3;
+				INFOPLIST_FILE = DarkFITUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.kvetinac97.DarkFITUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DarkFIT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D6E3F423601C840061D6AE /* Build configuration list for PBXProject "DarkFIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D6E43723601C860061D6AE /* Debug */,
+				26D6E43823601C860061D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D6E43923601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFIT Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D6E43A23601C860061D6AE /* Debug */,
+				26D6E43B23601C860061D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D6E43D23601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D6E43E23601C860061D6AE /* Debug */,
+				26D6E43F23601C860061D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D6E44023601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D6E44123601C860061D6AE /* Debug */,
+				26D6E44223601C860061D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D6E44323601C860061D6AE /* Build configuration list for PBXNativeTarget "DarkFITUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D6E44423601C860061D6AE /* Debug */,
+				26D6E44523601C860061D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26D6E3F123601C840061D6AE /* Project object */;
+}
