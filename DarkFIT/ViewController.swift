@@ -19,10 +19,13 @@ class ViewController: NSViewController {
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: "cz.kvetinac97.DarkFIT-Extension") { error in
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: "cz.kvetinac97.DarkFIT.extension") { error in
             if let _ = error {
                 // Insert code to inform the user that something went wrong.
-
+                let alert = NSAlert()
+                alert.addButton(withTitle: "OK")
+                alert.messageText = "Nepodařilo se otevřít rozšíření v Safari"
+                alert.runModal()
             }
         }
     }

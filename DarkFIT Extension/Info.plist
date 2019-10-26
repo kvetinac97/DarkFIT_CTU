@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>5</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -28,29 +28,33 @@
 		<string>com.apple.Safari.extension</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariExtensionHandler</string>
-		<key>SFSafariContentScript</key>
+		<key>SFSafariStyleSheet</key>
 		<array>
 			<dict>
-				<key>Script</key>
-				<string>script.js</string>
+				<key>Style Sheet</key>
+				<string>progtest.css</string>
+				<key>Allowed URL Patterns</key>
+				<array>
+					<string>https://progtest.fit.cvut.cz/*</string>
+				</array>
+			</dict>
+			<dict>
+				<key>Excluded URL Patterns</key>
+				<array>
+					<string>https://progtest.fit.cvut.cz/*</string>
+				</array>
+				<key>Style Sheet</key>
+				<string>style.css</string>
 			</dict>
 		</array>
-		<key>SFSafariToolbarItem</key>
-		<dict>
-			<key>Action</key>
-			<string>Command</string>
-			<key>Identifier</key>
-			<string>Button</string>
-			<key>Image</key>
-			<string>ToolbarItemIcon.pdf</string>
-			<key>Label</key>
-			<string>Your Button</string>
-		</dict>
 		<key>SFSafariWebsiteAccess</key>
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>*.webkit.org</string>
+				<string>progtest.fit.cvut.cz</string>
+				<string>timetable.fit.cvut.cz</string>
+				<string>moodle-vyuka.cvut.cz</string>
+				<string>courses.fit.cvut.cz</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>
@@ -59,6 +63,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 Ondrej Wrzecionko. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>This is a Safari Extension. You should tell us what your extension does here.</string>
+	<string>Dark theme for FIT CTU pages.</string>
 </dict>
 </plist>

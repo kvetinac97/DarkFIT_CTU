@@ -1,0 +1,290 @@
+#TimeTable
+
+p,
+.day-name,
+.footer a,
+.footer,
+.switch-label {
+    color: rgba(255, 255, 255, .87) !important;
+}
+#fittable .table .day:nth-child(odd),
+input{
+    background: #212121 !important;
+}
+#fittable .table .events .event .detail,
+.switch label{
+    background: #303030 !important;
+}
+#fittable .table .events .event .detail span,
+#fittable .table .events .event .detail i,
+#fittable .table .events .event .detail .value{
+    color: rgba(255, 255, 255, .87) !important;
+}
+
+#fittable .table .day:nth-child(even),
+#fittable .settings-toggle-btn {
+    background: #303030 !important;
+    color: rgba(255, 255, 255, .87) !important;
+}
+
+#Courses
+
+body, .App, header, .Footer, .page-footer, .navbar, .navbar .navbar-header .navbar-brand, .navbar .collapse ul.nav.navbar-nav.navbar-right a{
+    background: #121212 !important;
+    color: rgba(255, 255, 255, .87) !important;
+}
+
+img{
+    background-color: rgba(255, 255, 255, .87) !important;
+    border: solid 1px #121212 !important;
+}
+
+.header{
+    background: none !important;
+}
+
+.heading-group .course-heading,
+.toc h2{
+    color:rgba(255, 255, 255, .87) !important;
+}
+
+a,
+.menubar ul > li > ul a{
+    color: rgba(255,165,0,.87) !important
+}
+
+.button:not(.button-light):hover{
+    color: rgba(255, 255, 255, .60) !important
+}
+.UserMenu,
+.UserMenu .user-initials,
+.UserMenu .user-menu ul,
+.UserMenu .user-menu ul button,
+.Upcoming .event,
+.App.in-search,
+.app-menu li.user,
+.app-menu .username,
+.app-menu li.user.dropdown:hover,
+.app-menu li.user.dropdown:active,
+.panel,
+.list-group .list-group-item{
+    background: #212121 !important;
+    color: rgba(255, 255, 255, .87) !important;
+}
+.panel .panel-heading,
+.alert{
+    color: #212121 !important
+}
+
+.panel-default,
+.panel-default .panel-heading,
+.alert-default{
+    border-color: rgba(255, 255, 255, .60) !important
+}
+.panel-default .panel-heading,
+.alert-default{
+    background-color: rgba(255, 255, 255, .60) !important
+}
+
+.panel-warning,
+.panel-warning .panel-heading,
+.alert-warning{
+    border-color: rgb(255, 200, 100) !important;
+}
+.panel-warning .panel-heading,
+.alert-warning{
+    background-color: rgb(255, 200, 100) !important;
+}
+
+.panel-info,
+.panel-info .panel-heading,
+.alert-info{
+    border-color: rgb(0, 200, 255) !important;
+}
+.panel-info .panel-heading,
+.alert-info{
+    background-color: rgb(0, 200, 255) !important;
+}
+
+.panel-success,
+.panel-success .panel-heading,
+.alert-success{
+        border-color: rgb(167, 255, 127) !important;
+}
+.panel-success .panel-heading,
+.alert-success{
+    background-color: rgb(167, 255, 127) !important;
+}
+
+.CoursesItem .tags li,
+.CoursesItem .code,
+.menubar ul > li > ul,
+.toc,
+.proof .well{
+    background: #505050 !important;
+    color: rgba(255, 255, 255, .60) !important
+}
+.course-semester ul{
+    border-top: 1em solid #303030 !important;
+}
+.App.in-search .CoursesItem .code,
+.App.in-search .CoursesItem:hover .code{
+    background: none !important;
+}
+
+.admonition-block{
+    background-color: #212121 !important
+}
+
+.Heading,
+.Heading h1,
+.list .CoursesItem .column-info a{
+    color:rgba(255, 255, 255, .87) !important
+}
+.list .CoursesItem .column-info a:hover,
+.list .CoursesItem:hover{
+    background: #303030 !important
+}
+
+.Upcoming,
+.Upcoming .event .time,
+.Upcoming .event .location,
+.CoursesItem .url,
+.CoursesItemDetailed .column-grades li .description
+{
+    color: rgba(255, 255, 255, .60) !important;
+}
+
+.CoursesItem:hover .code,
+.CoursesItem:hover .tags li{
+    background: #212121 !important
+}
+.list.shortened .CoursesItem .code{
+    background: none !important;
+}
+
+.UserMenu .user-menu ul li:not(:last-child)::after,
+.CoursesItem{
+    border-bottom: 1px solid rgba(255, 255, 255, .60) !important;
+}
+
+.UserMenu .user-menu .user-card,
+.popover{
+    background: #303030 !important;
+    color: rgba(255, 255, 255, .60) !important;
+}
+
+.Courses .list.shortened::before{
+    background: #000000 !important;
+}
+
+code{
+    background: #303030 !important;
+    color: rgba(255, 255, 255, .87) !important;
+}
+.slides{
+    background: #121212 !important;
+    color: rgba(255, 255, 255, .60) !important
+}
+.slides h1, .slides h2, .slides h3, .slides h4{
+    color: rgba(255, 255, 255, .87) !important;
+}
+
+.slide-background-content {
+    background: rgba(18, 18, 18) !important;
+}
+
+body, div.card {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.Courses .list.shortened::before {
+    background: transparent !important;
+}
+
+span.hljs-built_in,span.hljs_keyword {
+    color: #FFFF00 !important;
+}
+
+#fittable-signpost h1, div.row, a.button {
+    color: #FFFFFF !important;
+}
+
+div.header-usermenu-username, #fittable-signpost button {
+    background: rgba(48, 121, 187) !important;
+    color: #FFFFFF !important;
+}
+
+header span[data-reactid] {
+    color: #FFFFFF !important
+}
+
+body
+{
+  border-top: 3px solid rgba(255,165,0,.87) !important;
+}
+
+div.card-body {
+    background: #000000 !important
+}
+
+div.card-body.course-info-container {
+    background: #242424 !important;
+}
+
+pre {
+    background: #242424 !important;
+    color: #FFFFFF !important;
+}
+
+div#nav-drawer {
+    background-color: rgba(0, 0, 0, .0) !important;
+}
+
+i.fa {
+    color: #fff !important
+}
+
+div#action-menu-1-menu {
+    background-color: #ccc !important;
+}
+
+button[data-action="toggle-drawer"] {
+    background-color: rgba(0, 0, 0, .0) !important;
+    border-color: rgba(0, 0, 0, .0) !important;
+}
+
+select#jump-to-activity {
+    color: #fff !important;
+    border-color: rgba(0, 0, 0, .0) !important;
+    background-color: #333 !important;
+}
+
+div[style="background-color: #F4F4F4; margin-bottom: 10px; padding: 15px 25px"], div[style="background-color: #F4F4F4; margin-bottom: 10px; padding: .5em"], div[style="background-color: #FFE0BC; margin-bottom: 10px; padding: 15px 25px"] {
+    background-color: #333 !important;
+}
+
+span.hljs-keyword {
+    color: #87CEFA !important;
+}
+
+span.hljs-number, span.hljs-meta {
+    color: #00FF00 !important;
+}
+
+span.hljs-comment {
+    color: #FFA07A !important;
+}
+
+span.hljs-attribute {
+    color: #FFFFFF !important;
+}
+
+span.hljs-title, span.hljs-params {
+    color: #FF00FF !important;
+}
+
+div[class="table"] {
+    color: #000000 !important;
+}
