@@ -17,7 +17,7 @@
 		26D6E42323601C860061D6AE /* DarkFIT Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 26D6E42223601C860061D6AE /* DarkFIT Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		26D6E42823601C860061D6AE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D6E42723601C860061D6AE /* Cocoa.framework */; };
 		26D6E42B23601C860061D6AE /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6E42A23601C860061D6AE /* SafariExtensionHandler.swift */; };
-		26E3C5312363304A007C46DE /* progtest.css in Resources */ = {isa = PBXBuildFile; fileRef = 26E3C5302363304A007C46DE /* progtest.css */; };
+		26FA74AD25FA390100AB0FAB /* duplicate.js in Resources */ = {isa = PBXBuildFile; fileRef = 26FA74AC25FA390100AB0FAB /* duplicate.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 		26D6E42A23601C860061D6AE /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		26D6E43123601C860061D6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26D6E43623601C860061D6AE /* DarkFIT_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DarkFIT_Extension.entitlements; sourceTree = "<group>"; };
-		26E3C5302363304A007C46DE /* progtest.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = progtest.css; sourceTree = "<group>"; };
+		26FA74AC25FA390100AB0FAB /* duplicate.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = duplicate.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,7 @@
 				26D6E43123601C860061D6AE /* Info.plist */,
 				26D6E43623601C860061D6AE /* DarkFIT_Extension.entitlements */,
 				2602619423603CE70076B76C /* style.css */,
-				26E3C5302363304A007C46DE /* progtest.css */,
+				26FA74AC25FA390100AB0FAB /* duplicate.js */,
 			);
 			path = "DarkFIT Extension";
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Ondrej Wrzecionko";
 				TargetAttributes = {
 					26D6E3F823601C840061D6AE = {
@@ -225,8 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FA74AD25FA390100AB0FAB /* duplicate.js in Resources */,
 				2602619523603CE70076B76C /* style.css in Resources */,
-				26E3C5312363304A007C46DE /* progtest.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +299,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -359,6 +360,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

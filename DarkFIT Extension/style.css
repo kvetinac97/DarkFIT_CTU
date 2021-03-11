@@ -288,3 +288,15 @@ span.hljs-title, span.hljs-params {
 div[class="table"] {
     color: #000000 !important;
 }
+
+section#region-main {
+    background-color: #000000 !important;
+}
+
+table.generaltable, table.table-fit {
+    background-color: #FFFFFF !important;
+}
+
+div.info {
+    background-color: #696969 !important;
+}
